@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '@b#njy^^jh8qy7#^4i_&c23w(o4k3aq_&&$01a@w-y%56dmn53'
+SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -81,9 +81,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'djongo',
         'NAME': 'db',
-        'CLIENT':{'host': "mongodb+srv://test:test@cluster0-wp0k4.mongodb.net/test?retryWrites=true&w=majority"},
-        'USER': 'test',
-        'PASSWORD': 'test',
+        'CLIENT':{'host': "mongodb+srv://test:@cluster0-wp0k4.mongodb.net/test?retryWrites=true&w=majority"},
+        'USER': '',
+        'PASSWORD': '',
         }
 }
 
